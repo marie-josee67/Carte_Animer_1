@@ -20,8 +20,15 @@ body{
     width: 320px;
     height: 500px;
     border-radius: 20px;
-    overflow: hidden;
+    /*overflow: hidden;*/
     border: solid 8px #fff;
     position: relative;
 }
 
+/* Image de la carte */
+.card_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 15px;
+}
