@@ -2,17 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: #36768c;
+}
+
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+    /*border: 2px solid red;*/
+}
+
+footer{
+    text-align: center;
+    font-size: 1.4rem;
 }
 
 /* permet de positionner la carte */
-body{
+main{
     width: 100%;
-    height: 100vh;
-    background: #36768c;
+    height: 90vh;
     font-family: "roboto", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
+    /*border: 3px dashed purple;*/
 }
 
 /* La carte */
